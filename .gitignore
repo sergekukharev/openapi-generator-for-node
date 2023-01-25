@@ -103,7 +103,8 @@ dist
 # TernJS port file
 .tern-port
 /openapitools.json
-/out/
 
+# Local ignores
 .idea
 /build/
+/generatedClient/

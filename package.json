@@ -7,7 +7,6 @@
     "build": "npm run generate-client && npx tsc",
     "watch": "npx tsc --watch",
     "generate-client": "openapi-generator-cli generate -g typescript-node -i openapi.yaml -o src/generatedClient/",
-    "generate-client2": "openapi-generator-cli generate -g typescript-node -c openapi-generator-config.yaml -i openapi.yaml -o src/generatedClient/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

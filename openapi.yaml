@@ -26,9 +26,7 @@ paths:
               schema:
                 type: object
                 properties:
-                  folders:
-                    type: array
-                    items:
+                  recipient:
                       $ref: '#/components/schemas/Recipient'
 
 components:
@@ -36,6 +34,10 @@ components:
     Recipient:
       type: object
       properties:
+        id:
+          type: string
+          example: abcdef1234
+          minLength: 1
         name:
           type: string
           example: "John Doe"

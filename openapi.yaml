@@ -7,6 +7,7 @@ info:
 paths:
   /recipients/{id}:
     get:
+      operationId: "getRecipientById"
       description: Returns single recipient
       parameters:
         - name: id

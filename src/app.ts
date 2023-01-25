@@ -8,7 +8,7 @@ const client = new DefaultApi("https://example.com/api/");
 app.get('/', (req, res) => {
     res.send('Hello World!');
 
-    client.recipientsIdGet("abcdeddd").then(() => {
+    client.getRecipientById("abcdeddd").then(() => {
         console.log("Got response!");
     }).catch(() => {
         console.log("Request failed!");

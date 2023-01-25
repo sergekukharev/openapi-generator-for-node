@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sergekukharev/openapi-generator-for-node/issues"
   },
-  "homepage": "https://github.com/sergekukharev/openapi-generator-for-node#readme"
+  "homepage": "https://github.com/sergekukharev/openapi-generator-for-node#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
 }

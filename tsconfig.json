@@ -11,5 +11,5 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
   },
-  "exclude": ["node_modules", "generatedClient", "**/*.test.ts", "build"],
+  "exclude": ["node_modules", "**/*.test.ts", "build"],
 }

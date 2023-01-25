@@ -107,4 +107,4 @@ dist
 # Local ignores
 .idea
 /build/
-/generatedClient/
+/src/generatedClient/

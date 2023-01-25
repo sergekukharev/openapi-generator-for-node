@@ -2,11 +2,12 @@
   "name": "openapi-generator-for-node",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "build": "npm run generate-client && npx tsc",
     "watch": "npx tsc --watch",
-    "generate-client": "openapi-generator-cli generate -g typescript-node -c openapi-generator-config.yaml -i openapi.yaml -o generatedClient/",
+    "generate-client": "openapi-generator-cli generate -g typescript-node -i openapi.yaml -o src/generatedClient/",
+    "generate-client2": "openapi-generator-cli generate -g typescript-node -c openapi-generator-config.yaml -i openapi.yaml -o src/generatedClient/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,7 +27,6 @@
     "typescript": "^4.9.4"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "testClient": "file:generatedClient"
+    "express": "^4.17.1"
   }
 }

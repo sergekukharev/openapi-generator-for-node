@@ -8,6 +8,15 @@ paths:
   /recipients/{id}:
     get:
       description: Returns single recipient
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            example: abcdef1234
+            minLength: 1
+
       responses:
         '200':
           description: OK

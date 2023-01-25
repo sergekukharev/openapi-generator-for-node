@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "npm run generate-client && npx tsc",
+    "watch": "npx tsc --watch",
+    "generate-client": "openapi-generator-cli generate -g typescript-node -c openapi-generator-config.yaml -i openapi.yaml -o generatedClient/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

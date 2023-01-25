@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/sergekukharev/openapi-generator-for-node#readme",
   "devDependencies": {
+    "@types/node": "^18.11.18",
     "typescript": "^4.9.4"
   }
 }
